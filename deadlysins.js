@@ -50,7 +50,7 @@ $overlay.hide();
 
 //For the scrolling
 
-    $("html, body").animate({ scrollTop: $('h1#secondline').offset().top });
+    $("html, body").animate({ scrollTop: $('h1#firstline').offset().top });
     
     var scroll_pos = 0;
     var animation_begin_pos = 0; //where you want the animation to begin
