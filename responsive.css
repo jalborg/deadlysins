@@ -1,0 +1,24 @@
+@media screen and (max-width: 635px) {
+	.bar {
+		display:none;
+	}
+	#intro h1 {
+	font-size:1.5em;
+	text-align:center;
+	}
+
+}
+
+
+@media screen and (max-width: 1030px) {
+	.bar {
+
+		width: 30%;
+		height:49px;
+	}
+
+
+
+	.line {
+}
+

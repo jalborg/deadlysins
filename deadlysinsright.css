@@ -1,0 +1,331 @@
+div.quality {
+     box-sizing: border-box;
+}
+
+body {
+	width:100%;
+	background-color: rgb(255,256,255);
+	font-size:1rem;
+	min-height: 2700px;
+	font-family:"Open Sans", sans-serif;
+	font-weight:400;
+	text-align:center;
+	color:white;
+}
+
+
+/*INTRO - title and description of the project. Where the user enters*/
+#intro {
+	min-height:300px;
+	width:70%;
+	margin:0 auto;
+	font-size:2.2em;
+	font-weight:400;
+}
+.greatword {
+	height:200px;
+}
+
+/*INTRO - title*/
+#intro h1 {
+	font-size:1.7em;
+	letter-spacing:3px;
+}
+
+#firstline {
+	margin-bottom:0;
+}
+
+#secondline {
+	margin-top:0;
+}
+
+#introtext {
+	width:60%;
+	margin: 8% auto 0;
+}
+/*INTRO - text*/
+#intro p {
+	font-size:1.2rem;
+	font-weight:300;
+	line-height:1.5;
+	letter-spacing:1px;
+}
+
+/*SCROLLUP text*/
+#scrollup {
+	margin-top:200px;
+	margin-left:auto;
+	margin-right:auto;
+}
+/*SCROLLDOWN text*/
+#scrolldown {
+	margin-bottom:200px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#scrollup,
+#scrolldown {
+	max-width:90%;
+}
+
+/*DIV with the good words*/
+#goodquality {
+	padding-top:200px;
+}
+
+/*DIV with the bad words*/
+#badquality {
+	margin-bottom: 400px;
+}
+
+.arrowUp {
+	margin: 0 auto;
+	display:block;
+}
+
+.arrowDown {
+	margin: 0 auto;
+	display:block;
+}
+
+.description {
+	display:none;
+}
+
+/*BLUE OVERLAY that shows up when user clicks on a word*/
+#overlay {
+  background-color:#080C26;
+  opacity:0.9;
+  width:100%;
+  height:3500px;
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+}
+
+#overlay p {
+	color:white;
+	font-size:1em;
+	margin: 0 auto;
+	line-height:1.5;
+	padding:0 30%;
+}
+
+
+#social img {
+	width:50px;
+	height:50px;
+	margin-bottom:3%;
+}
+
+/*FOOTER with our names and credits*/
+footer {
+	text-align:center;
+	color:white;
+	width:50%;
+	margin:0 auto 2%;
+	font-weight:lighter;
+	font-family: "Open Sans", sans-serif;
+	font-size:0.9em;
+}
+/*LINK styling*/
+a {
+	text-decoration:none;
+	color:#D3D3D3;
+}
+
+/*LINK styling - when user hovers over the link*/
+a:hover {
+	text-decoration:none;
+	color:white;
+}
+
+
+
+.quality {
+	display: block;
+	height:50px;
+	margin-left:3%;
+	margin-right:3%;
+	font-weight:lighter;
+	font-family: "Open Sans", sans-serif;
+	letter-spacing: 3px;
+}
+
+.badword,
+.goodword {
+	display: inline-block;
+	min-width:200px;
+	margin: 0 auto;
+
+	
+}
+
+.headline{
+	font-weight:bold;
+	font-family: "Open Sans", sans-serif;
+	font-size:2.5em;
+	text-align:center;
+	letter-spacing: 3.5px;
+}
+
+.text{
+	font-weight:lighter;
+	font-family: "Open Sans", sans-serif;
+	font-size:1.2em;
+	text-align:center;
+	letter-spacing: 2px;
+
+}
+
+.number{
+	font-weight:lighter;
+	font-family: "Open Sans", sans-serif;
+	font-size:2.5em;
+	text-align:center;
+	letter-spacing: 3.5px;
+
+}
+
+.goodword {
+	color:#080C27;
+}
+
+.bar {
+
+	width: 37%;
+	display: inline-block;
+}
+
+
+
+/*.stroke_down{
+	position: absolute;
+	margin-left: -37px;
+	margin-top: -285px;
+}
+
+#badquality{
+	margin-top: 500px;
+
+}*/
+
+.line {
+	border-right: solid 1px white;
+	height: 60px;
+	display: block;
+	width: 50%;
+
+}
+
+.gline {
+	border-right: solid 1px black;
+	height: 60px;
+	display: block;
+	width: 50%;
+
+}
+
+/*.line_down {
+	border-right: solid 11px white;
+	height: 1px;
+	display: block;
+	width: 50%;
+	margin-top: -10px;
+	margin-bottom: -4px;
+	margin-left: -5px;
+}
+
+.line_up {
+	border-right: solid 11px white;
+	height: 1px;
+	display: block;
+	width: 50%;
+	margin-bottom: -10px;
+	margin-left: -5px;
+	
+}
+*/
+
+.line_long {
+ 	border-right: solid 1px white;
+	height: 250px;
+	display: block;
+	width: 50%;
+	
+
+}
+.gline_long {
+	border-right: solid 1px black;
+	height: 250px;
+	display: block;
+	width: 50%;
+}
+
+
+/*Code down here: Not used right now
+
+
+.hideme
+{
+	width:100%;
+	height:70px;
+	background-color:black;
+	margin:0 auto;
+	font-size:20;
+	color:black;
+	display:block;
+	padding: 5px 5px 5px 5px;
+	margin: 100px auto 100px auto;
+    opacity:0;
+}
+
+
+
+
+
+.plus {
+	width:30px;
+	height:30px;
+}
+
+
+.bar_explain {
+	width:400px;
+	height:50px;
+}
+*/
+
+
+
+
+
+/*Not using this. For overlay that fits right on top of image/bar
+
+.quality {
+	position:relative;
+	width:100%;
+}
+
+.quality img .bar  {
+	width:50%;
+	display:inline-block;
+}
+
+.overlay {
+	position:absolute;
+	top:0;
+	left:0;
+	width: 100%;
+  	height: 100%;
+  	background-color: black;
+  	opacity:0;
+}
+.showExplanation {
+	opacity:0.7;
+}
+

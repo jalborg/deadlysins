@@ -1,0 +1,21 @@
+div#badquality,
+div#goodquality {
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	-webkit-justify-content: space-between;
+}
+
+#flexbox {
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	-webkit-justify-content: space-between;
+}
+
+div.quality {
+	display: -webkit-flex;
+	-webkit-justify-content: space-between;
+}
+p.goodword,
+p.badword {
+	-webkit-align-self: center;
+}
