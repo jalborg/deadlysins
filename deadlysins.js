@@ -47,6 +47,8 @@ $overlay.hide();
 
 
 
+
+
 //For the scrolling
 
     window.scroll(0, 1400)
@@ -55,7 +57,7 @@ $overlay.hide();
     var animation_begin_pos = 0; //where you want the animation to begin
     var animation_end_pos = 2700; //where you want the animation to stop
     var beginning_color = new $.Color( 'rgb(245,247,249)' ); //we can set this here, but it'd probably be better to get it from the CSS; for the example we're setting it here.
-    var ending_color = new $.Color( 'rgb(8,12,39)' ); ;//what color we want to use in the end
+    var ending_color = new $.Color( 'rgb(28,34,58)' ); ;//what color we want to use in the end
     
     var arrowUp = $('.arrowUp');
     var arrowDown = $('.arrowDown');

@@ -7,6 +7,15 @@
 	text-align:center;
 	}
 
+	#heaven, #hell {
+		display:none;
+	}
+
+	#social img {
+
+	margin-top:5%;
+	}
+
 }
 
 
@@ -21,4 +30,8 @@
 		font-family: "Open Sans", sans-serif;
 		letter-spacing: 3px;
 	}
+	#goodquality, #badquality {
+	margin-bottom:2%;
+	}
+}
 
