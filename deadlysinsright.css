@@ -80,10 +80,26 @@ body {
 	margin-top:20px;
 }
 
-.percent {
+.percentleft, .percentright {
 	display:none;
-	position:absolute;
 }
+
+.percentleft {
+	float:right;
+	padding-right: 2%;
+}
+
+.percentright {
+	float:left;
+	padding-left: 2%;
+}
+
+div.bar:hover .percentleft,
+div.bar:hover .percentright {
+	display:block;
+}
+
+
 
 /*Description of the bars. Over/under the goodquality and badquality divs*/
 #heaven {
@@ -127,13 +143,13 @@ p.others {
 .arrowUp {
 	margin: 0 auto;
 	display:block;
-	margin-bottom: 15%;
+	margin-bottom: 6%;
 }
 
 .arrowDown {
 	margin: 0 auto;
 	display:block;
-	margin-top: 15%;
+	margin-top: 6%;
 }
 
 .description {
@@ -191,9 +207,8 @@ a:hover {
 }
 
 
-
 .quality {
-	position:relative;
+	height:60px;
 	display: block;
 	margin-left:3%;
 	margin-right:3%;
@@ -211,8 +226,11 @@ a:hover {
 }
 
 p.badword, p.goodword { 
-	cursor: pointer; 
+	cursor: pointer;
+}
 
+p.badword:hover, p.goodword:hover { 
+	color:#D3D3D3;
 }
 
 .headline{
