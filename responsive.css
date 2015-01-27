@@ -35,6 +35,14 @@
 		font-size:0.7em;
 		padding:0 5%;
 	}
+
+	.arrowUp {
+	margin-bottom: 5%;
+	}
+
+.arrowDown {
+	margin-top: 15%;
+	}
 }
 
 
