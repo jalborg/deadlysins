@@ -51,7 +51,7 @@ $overlay.hide();
 
 //For the scrolling
 
-    window.scroll(0, 1400)
+    window.scroll(0, 1340)
     
     var scroll_pos = 0;
     var animation_begin_pos = 0; //where you want the animation to begin
