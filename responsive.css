@@ -15,10 +15,10 @@
 
 		width: 30%;
 		height:49px;
+		margin-left:3%;
+		margin-right:3%;
+		font-weight:lighter;
+		font-family: "Open Sans", sans-serif;
+		letter-spacing: 3px;
 	}
-
-
-
-	.line {
-}
 

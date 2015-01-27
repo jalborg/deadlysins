@@ -1,6 +1,4 @@
-div.quality {
-     box-sizing: border-box;
-}
+
 
 body {
 	width:100%;
@@ -148,7 +146,6 @@ a:hover {
 
 .quality {
 	display: block;
-	height:50px;
 	margin-left:3%;
 	margin-right:3%;
 	font-weight:lighter;
