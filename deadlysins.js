@@ -50,6 +50,8 @@ $overlay.hide();
 
 //For the scrolling
 
+    window.scroll(0, 1400);
+
     $("html, body").animate({ scrollTop: $('img.arrowUp').offset().top });
     
     var scroll_pos = 0;
