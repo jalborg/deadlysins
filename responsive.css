@@ -1,10 +1,25 @@
 @media screen and (max-width: 635px) {
+
+
+
 	.bar {
 		display:none;
 	}
+
+	#intro {
+		width:95%;
+	}
 	#intro h1 {
-	font-size:1.5em;
+	font-size:1.1em;
 	text-align:center;
+	}
+
+	#introtext {
+		width:85%;
+	}
+
+	#intro p {
+		font-size:0.5em;
 	}
 
 	#heaven, #hell {
@@ -16,6 +31,10 @@
 	margin-top:5%;
 	}
 
+	#overlay p {
+		font-size:0.7em;
+		padding:0 5%;
+	}
 }
 
 

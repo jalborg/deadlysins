@@ -40,7 +40,7 @@ body {
 
 #introtext {
 	width:60%;
-	margin: 5% auto 0;
+	margin: 20px auto 0;
 }
 /*INTRO - text*/
 #intro p {
@@ -71,13 +71,13 @@ body {
 /*DIV with the good words*/
 #goodquality {
 	margin-top:200px;
-	margin-bottom:3%;
+	margin-bottom:20px;
 }
 
 /*DIV with the bad words*/
 #badquality {
 	margin-bottom: 200px;
-	margin-top:3%;
+	margin-top:20px;
 }
 
 .percent {
@@ -127,13 +127,13 @@ p.others {
 .arrowUp {
 	margin: 0 auto;
 	display:block;
-	margin-bottom: 80px;
+	margin-bottom: 40px;
 }
 
 .arrowDown {
 	margin: 0 auto;
 	display:block;
-	margin-top: 80px;
+	margin-top: 40px;
 }
 
 .description {
@@ -165,7 +165,7 @@ p.others {
 #social img {
 	width:50px;
 	height:50px;
-	margin-bottom:3%;
+	margin-bottom:5px;
 }
 
 /*FOOTER with our names and credits*/
@@ -173,7 +173,7 @@ footer {
 	text-align:center;
 	color:white;
 	width:50%;
-	margin:0 auto 2%;
+	margin:0 auto 10px;
 	font-weight:lighter;
 	font-family: "Open Sans", sans-serif;
 	font-size:0.9em;
