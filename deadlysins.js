@@ -13,10 +13,26 @@ $overlay.append($explanation);
 //Add overlay to body
 $("body").append($overlay);
 
+var $overview =$('<img id="overview" src="Overview.jpg">');
 
 
+//On click on the comparison text, show overview image
+$("p.comparegood").click(function() {
+$overlay.append($overview);
+$overview.css("margin-top", "0px");
+$overlay.css("opacity", "1");
+$overlay.show();
+});
 
+
+$("p.compare").click(function() {
+$overlay.append($overview);
+$overview.css("margin-top", "2600px");
+$overlay.css("opacity", "1");
+$overlay.show();
+});
 //Function for what happens when user clicks on one of the good words
+
 
 $("p.goodword").click(function() {
 //Show explanation text in overlay
