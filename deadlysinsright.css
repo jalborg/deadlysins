@@ -80,23 +80,28 @@ body {
 	margin-top:20px;
 }
 
-.percentleft, .percentright {
-	display:none;
-}
 
 .percentleft {
-	float:right;
-	padding-right: 2%;
-}
-
-.percentright {
+	display:none;
 	float:left;
-	padding-left: 2%;
+	position:absolute;
+	margin-left:-4.5%;
+	color:black;
+	letter-spacing: 1px;
+}
+.percentright {
+	display:none;
+	float:left;
+	position:absolute;
+	margin-left:1.5%;
+	color:black;
+	letter-spacing: 1px;
 }
 
-div.bar:hover .percentleft,
-div.bar:hover .percentright {
-	display:block;
+
+div.quality:hover .percentleft,
+div.quality:hover .percentright {
+	display:inline-block;
 }
 
 

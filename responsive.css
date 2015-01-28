@@ -43,12 +43,16 @@
 .arrowDown {
 	margin-top: 15%;
 	}
+
+	div.quality:hover .percentleft,
+	div.quality:hover .percentright {
+	display:none;
+}
 }
 
 
 @media screen and (max-width: 1030px) {
 	.bar {
-		height:49px;
 		font-weight:lighter;
 		font-family: "Open Sans", sans-serif;
 		letter-spacing: 3px;

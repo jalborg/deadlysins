@@ -14,6 +14,8 @@ $overlay.append($explanation);
 $("body").append($overlay);
 
 
+
+
 //Function for what happens when user clicks on one of the good words
 
 $("p.goodword").click(function() {
