@@ -5,6 +5,7 @@ $(document).ready(function(){
 //Creating vars for blue overlay and explanation (definition of the word)
 
 var $overlay =$('<div id="overlay"></div>');
+var $imageoverlay =('<div id="imageoverlay"></div>');
 var $explanation = $("<p></p>");
 
 //Add explanation of word to overlay
@@ -12,24 +13,23 @@ $overlay.append($explanation);
 
 //Add overlay to body
 $("body").append($overlay);
+$("body").append($imageoverlay);
 
 var $overview =$('<img id="overview" src="Overview.jpg">');
 
 
 //On click on the comparison text, show overview image
 $("p.comparegood").click(function() {
-$overlay.append($overview);
+$imageoverlay.append($overview);
 $overview.css("margin-top", "0px");
-$overlay.css("opacity", "1");
-$overlay.show();
+$imageoverlay.show();
 });
 
 
 $("p.compare").click(function() {
-$overlay.append($overview);
+$imageoverlay.append($overview);
 $overview.css("margin-top", "2600px");
-$overlay.css("opacity", "1");
-$overlay.show();
+$imageoverlay.show();
 });
 //Function for what happens when user clicks on one of the good words
 

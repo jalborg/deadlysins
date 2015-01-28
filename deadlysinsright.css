@@ -182,6 +182,18 @@ p.others {
 	padding:0 30%;
 }
 
+#imageoverlay {
+  background-color:#080C26;
+  opacity:1;
+  width:100%;
+  height:3400px;
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+}
+
 #overview {
 	margin: 0 auto;
 	width:100%;
